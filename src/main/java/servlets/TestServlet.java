@@ -21,6 +21,6 @@ public class TestServlet extends HttpServlet {
         ApplicationContext appCon=new ClassPathXmlApplicationContext("applicationContext.xml");
         TestDao testDao=(TestDao)appCon.getBean("test");
         testDao.sayHello();
-        response.getWriter().println("Test has been done!");
+        response.getWriter().println("Test has been done!!!   201707211");
     }
 }
